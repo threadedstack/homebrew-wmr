@@ -1,15 +1,15 @@
 class Wmr < Formula
   desc "wmr: projects and machines"
   homepage "https://github.com/threadedstack/wmr-releases"
-  url "https://github.com/threadedstack/wmr-releases/releases/download/v0.0.14/wmr-0.0.14-macos-arm64"
-  version "0.0.14"
-  sha256 "f96ed83edf820a5c472719c62d4dd2be3a65e9cda3b6f06b51e72cfd3c8f93b6"
+  url "https://github.com/threadedstack/wmr-releases/releases/download/v0.0.15/wmr-0.0.15-macos-arm64"
+  version "0.0.15"
+  sha256 "50d614190bf0d4a03c61a353ce1c158d0d730b0b67928ad19859b315ee694e3b"
 
   depends_on :macos
   depends_on arch: :arm64
 
   def install
-    bin.install "wmr-0.0.14-macos-arm64" => "wmr"
+    bin.install "wmr-0.0.15-macos-arm64" => "wmr"
   end
 
   test do
