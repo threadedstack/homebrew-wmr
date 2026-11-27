@@ -1,6 +1,6 @@
 cask "wmr-app" do
-  version "0.0.62"
-  sha256 "9b6a52f49dcd9994f15806bbd85177cea14c47878ce965eb11dc9b2866d57646"
+  version "0.0.63"
+  sha256 "1cc689bbc91d69e4fd99ab311c863df8394d134d68bdcae5a9301166949481ff"
 
   url "https://github.com/threadedstack/wmr-releases/releases/download/v#{version}/wmr-#{version}-macos-arm64.dmg"
   name "wmr"
